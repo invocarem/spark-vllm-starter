@@ -2,6 +2,7 @@
 export MN_IF_NAME=enp1s0f0np0  
 export VLLM_HOST_IP=192.168.100.12
 export HEAD_NODE_IP=192.168.100.11
+export VLLM_IMAGE=vllm-node-tf5
 
 # Stop existing containers
 #docker stop $(docker ps -aq) 2>/dev/null || true
