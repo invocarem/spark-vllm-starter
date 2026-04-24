@@ -1,5 +1,5 @@
 # Use the interface that has 192.168.100.12
-export MN_IF_NAME=enp1s0f0np0  
+export MN_IF_NAME=enp1s0f1np1  # This is correct for spark1 on 100.xx network
 export VLLM_HOST_IP=192.168.100.12
 export HEAD_NODE_IP=192.168.100.11
 export VLLM_IMAGE=vllm-node-tf5
